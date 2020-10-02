@@ -22,7 +22,7 @@ function draw(){
         changePosition(-0.001,0);
     }
     else if(keyDown(RIGHT_ARROW)){
-        changePosition(0.0001,0);
+        changePosition(0.001,0);
     }
     else if(keyDown(UP_ARROW)){
         changePosition(0,-0.001);
