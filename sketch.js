@@ -8,7 +8,7 @@ function setup(){
     database = firebase.database();
     BallPosition = database.ref("Ball/Position");
     BallPosition.on("value", readPosition, showError);
-    createCanvas(500,500);
+    createCanvas(1000,1000);
     Ball = createSprite(250,250,10,10);
     Ball.shapeColor = "red";
 }
