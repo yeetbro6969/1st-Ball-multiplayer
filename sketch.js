@@ -19,16 +19,16 @@ function draw(){
 
     
     if(keyDown(LEFT_ARROW)){
-        changePosition(-0.0001,0);
+        changePosition(-0.001,0);
     }
     else if(keyDown(RIGHT_ARROW)){
         changePosition(0.0001,0);
     }
     else if(keyDown(UP_ARROW)){
-        changePosition(0,-0.0001);
+        changePosition(0,-0.001);
     }
     else if(keyDown(DOWN_ARROW)){
-        changePosition(0,+0.0001);
+        changePosition(0,+0.001);
     }
     drawSprites();
 }
